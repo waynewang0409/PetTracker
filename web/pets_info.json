@@ -1,0 +1,26 @@
+[
+  {
+    "petId":1,
+    "name":"doggy",
+    "breed":"Beagle",
+    "size":"small",
+    "weight":"8",
+    "category":"dog"
+  },
+  {
+    "petId":2,
+    "name":"lala",
+    "breed":"Labrador Retriever",
+    "size":"middle",
+    "weight":"28",
+    "category":"dog"
+  },
+  {
+    "petId":3,
+    "name":"Meow",
+    "breed":"mix",
+    "size":"large",
+    "weight":"12",
+    "category":"cat"
+  }
+]
