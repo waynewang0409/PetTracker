@@ -1,0 +1,63 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="243CAB2E-D67B-45CD-A4D3-90E484AE83DE" platform="MtMobile" defaultW="375" defaultH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" measureW="375" measureH="667" clipArea="(0,0,0,0)">
+  <controls controlCount="7">
+    <control controlID="F6B77D26-5385-4792-8B16-FC15A36B9EE7" controlTypeID="Image" x="0" y="63" w="375" h="608" zOrder="0">
+      <caption>Image</caption>
+      <URL>EA5DAEE59571DD3F42B5C10501D10495.png</URL>
+    </control>
+    <control controlID="2696081F-4D18-49B7-9F44-210A13BE6484" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="1">
+      <caption>iOS+Status+Bar</caption>
+      <color>4294967295</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="B9B6DCB1-1DE9-4BE3-9C91-0D810C3670E8" controlTypeID="Shape" x="0" y="20" w="375" h="44" zOrder="2">
+      <caption>Shape</caption>
+      <borderColor>4291611852</borderColor>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>POSTURE</text>
+      <textColor>4284900966</textColor>
+      <textSize>20</textSize>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="E4520C0C-4418-4211-B193-0843A441510F" controlTypeID="Icon" x="26" y="412" w="35" h="35" zOrder="3">
+      <icon>
+        <ID/>
+        <iconFontName>jdIcoMoonFree</iconFontName>
+        <iconCode>59901</iconCode>
+      </icon>
+      <URL>CB2B383D8CFE41CD7EFDBA6BB45341D2.svg</URL>
+    </control>
+    <control controlID="56CDFCD4-44E9-4E3A-A08D-E16E572E8729" controlTypeID="TextArea" x="97" y="412" w="258" h="70" zOrder="4">
+      <font family="Times+New+Roman" displayName="Times+New+Roman" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>sleeping.....</text>
+      <textSize>18</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9A2D8EBF-8FBB-4387-AF9A-8E2B4B237E22" controlTypeID="Image" x="0" y="97" w="375" h="248" zOrder="5">
+      <URL>1312B46DF57A8D1D2AB8E9D6BDDA8066.png</URL>
+    </control>
+    <control controlID="C228C309-3ED8-446F-818A-3BBFACB8F499" controlTypeID="Icon" x="10" y="30" w="24" h="24" zOrder="6">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="B9FB7220-1D34-48AE-B395-CD3A871E16A2" linkType="ltPageLink" isApplyIncludePage="False" title="Health">
+          <area shape="0" alt="" ID="{03D86F45-8ADC-4237-8147-D4EA88C73D0F}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62305</iconCode>
+      </icon>
+      <URL>99D18E524D2BEF9446942FB6A373FE26.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

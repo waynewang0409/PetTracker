@@ -1,0 +1,64 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="DA768265-BCFB-4431-AC0F-488CD6D098D8" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="6">
+    <control controlID="8A458F40-0D89-40A8-9218-3E5B4D961EF5" controlTypeID="StatusBar(IOS)" x="0" y="-1" w="375" h="17" zOrder="0">
+      <caption>iOS+Status+Bar</caption>
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="027E2964-932E-4F3D-8F89-36F20218B18E" controlTypeID="Shape" x="0" y="16" w="375" h="42" zOrder="1">
+      <caption>Shape</caption>
+      <borderColor>4293190884</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>TERM+OF+USE+</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="F9EE2754-BB16-42BC-BB07-57FD943B1B6F" controlTypeID="Icon" x="10" y="29" w="15" h="15" zOrder="2">
+      <caption>Icon</caption>
+      <color>4285953654</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="3008E8E8-8F80-4597-AA0A-82779154C6DE" linkType="ltPageLink" isApplyIncludePage="False" title="Login">
+          <area shape="0" alt="" ID="{C1628951-E44B-4069-B86E-F10F51AEAC01}" coords="(0,0,15,15)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61738</iconCode>
+      </icon>
+      <URL>C3E2977FC40DAEFBC44FD1E53166AF20.svg</URL>
+    </control>
+    <control controlID="D113CADB-3AA8-45D8-BCAA-D654BB458124" controlTypeID="Label" x="138" y="116" w="89" h="19" zOrder="3">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial+Bold+Italic" postScript="" weightStyle="Bold+Italic" weight="700" isBold="True" isItalic="True"/>
+      <text>WELCOME!</text>
+      <textColor>4281545523</textColor>
+      <textSize>16</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold,fsItalic]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="33DEEB23-8DCB-4F2E-BB55-0BD1149C87BE" controlTypeID="TextArea" x="18" y="166" w="329" h="496" zOrder="4">
+      <caption>Text+Area</caption>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%0D%0AThank+you+for+using+this+app.+By+accessing+and+using+any+part+of+the+Website%2C+you+shall+be+deemed+to+have+accepted+to+be+legally+bound+by+these+Terms+of+Use.+If+you+do+not+agree+to+these+Terms+of+Use%2C+please+do+not+use+the+Website.+Any+continued+use+of+the+Website+at+any+time+will+imply+that+you+have+accepted+these+Terms+of+Use.%0D%0A%0D%0AGeneral%0D%0AThese+Terms+of+Use+may+be+changed+from+time+to+time.+All+changes+will+be+posted+on+this+page%2C+and+your+use+of+the+Website+after+such+changes+have+been+posted+will+constitute+your+agreement+to+the+Terms+of+Use+as+changed.%0D%0A%0D%0AProprietary+Rights%0D%0AThis+Website+and+its+contents+are+protected+by+copyright%2C+trademark+and+other+forms+of+intellectual+property+laws+in+Singapore+and%2C+through+international+treaties%2C+other+countries.+All+rights%2C+title+and+interest+in+the+Website+and+its+contents+are+owned+by+or+licensed+to+***********+Pte+Ltd+(%22***********%22).%0D%0A%0D%0ARestrictions+On+Use%0D%0ANo+part+of+the+contents+or+materials+available+on+this+Website+may+be+reproduced%2C+republished%2C+distributed+in+any+way+without+the+prior+written+permission+of+***********.+You+may+view+this+Website+and+its+contents+using+your+Web+browser+and+save+an+electronic+copy%2C+or+print+out+a+copy%2C+of+limited+parts+of+this+Website+solely+for+your+own+information%2C+research+or+study%2C+provided+you+keep+intact+all+accompanying+copyright+and+other+proprietary+notices.%0D%0AModification+of+any+part+of+the+Website+or+any+of+its+contents%2C+or+use+of+the+Website+or+its+contents+for+any+purpose+other+than+allowed+by+these+Terms+of+Use+will+be+a+violation+of+***********'s+copyright+and+other+intellectual+property+rights.%0D%0A%0D%0ADisclaimer%0D%0ATHE+USER+ACKNOWLEDGES+AND+AGREES+THAT+ALL+THE+INFORMATION+ON+THIS+WEBSITE+IS+PROVIDED+%22AS+IS%22.%0D%0A***********+has+made+reasonable+endeavour+to+ensure+that+the+information+and+materials+posted+on+this+Website+are+correct+at+the+time+of+posting.+However%2C+***********+gives+no+warranty+and+accepts+no+responsibility+or+liability+for+the+accuracy+or+the+completeness+of+the+information+and+materials+provided+here+for+any+purpose+whatsoever.+No+reliance+should+be+made+by+any+user+on+the+information+or+material+so+posted%3B+instead%2C+the+user+should+independently+verify+the+accuracy+and+completeness+of+the+information+and%2For+materials+with+***********.%0D%0AThe+user+acknowledges+and+agrees+that+***********+shall+not+be+held+responsible+or+liable+in+any+way+for+any+and%2For+all+consequences+(including%2C+without+limitation%2C+damages+for+loss+of+profits%2C+business+interruption%2C+or+loss+of+information)+that+may+be+incurred+by+the+user+as+a+direct+or+indirect+result+of+using%2C+or+the+inability+to+use%2C+any+materials+or+contents+on+this+Website%2C+even+if+***********+has+been+advised+of+the+possibility+of+such+damages+in+advance.%0D%0A</text>
+      <textSize>15</textSize>
+      <lineSpacingMultiple>1.29999995231628</lineSpacingMultiple>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D1B989B1-1463-4039-AD6A-7883CFB612EA" controlTypeID="VSlider" x="357" y="280" w="14" h="200" zOrder="5">
+      <progress>1</progress>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

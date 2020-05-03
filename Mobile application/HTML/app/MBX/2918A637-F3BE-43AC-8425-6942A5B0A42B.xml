@@ -1,0 +1,158 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="2918A637-F3BE-43AC-8425-6942A5B0A42B" platform="MtMobile" defaultW="375" defaultH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" measureW="375" measureH="667" clipArea="(0,0,0,0)">
+  <controls controlCount="13">
+    <control controlID="FF943CBE-2F05-493D-BC2D-8A7C1E03D46A" controlTypeID="Image" x="0" y="64" w="375" h="608" zOrder="0">
+      <caption>Image</caption>
+      <URL>EA5DAEE59571DD3F42B5C10501D10495.png</URL>
+    </control>
+    <control controlID="57B05BA2-E3B7-4360-B487-BA480A767C3C" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="1">
+      <caption>iOS+Status+Bar</caption>
+      <color>4294967295</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="EE6AED30-62B6-4662-986C-2CFBD1EB22C2" controlTypeID="Shape" x="0" y="20" w="375" h="44" zOrder="2">
+      <caption>Shape</caption>
+      <borderColor>4291611852</borderColor>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>NEW+PET</text>
+      <textColor>4284900966</textColor>
+      <textSize>20</textSize>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="A90D9933-52BB-414B-8236-EE027E55C617" controlTypeID="AvatarEx2" x="153" y="94" w="70" h="70" zOrder="3">
+      <caption>Avatar</caption>
+      <color>4284900966</color>
+      <avatarColorStyle>asGray</avatarColorStyle>
+      <avatarShapeStyle>asCircle</avatarShapeStyle>
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59652</iconCode>
+      </icon>
+      <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+    </control>
+    <control controlID="F56E689F-92BE-484B-B869-09CBACCA9FDE" controlTypeID="TextInput" x="47" y="210" w="290" h="55" zOrder="4">
+      <caption>Text+Input</caption>
+      <color>4293980400</color>
+      <borderVisible>False</borderVisible>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>NAME</text>
+      <textColor>4291414473</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AC9B0670-FB54-4F35-8C95-C8E40777D78D" controlTypeID="TextInput" x="47" y="273" w="290" h="55" zOrder="5">
+      <caption>Text+Input</caption>
+      <color>4293980400</color>
+      <borderVisible>False</borderVisible>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>BREED</text>
+      <textColor>4291611852</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="896710A2-83DC-47CA-9304-C153513F297B" controlTypeID="TextInput" x="47" y="340" w="290" h="55" zOrder="6">
+      <caption>Text+Input</caption>
+      <color>4293980400</color>
+      <borderVisible>False</borderVisible>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>SIZE</text>
+      <textColor>4291414473</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="A4F15887-1A83-4629-A462-364F639A8E02" controlTypeID="Button" x="42" y="586" w="293" h="61" zOrder="7">
+      <caption>Button</caption>
+      <color>4291218637</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="988A39D1-4717-4098-A446-21A104076749" linkType="ltPageLink" isApplyIncludePage="False" title="My+pets">
+          <area shape="0" alt="" ID="{42973F4C-23F2-498B-BD9E-3FD39695C849}" coords="(0,0,293,61)"/>
+        </link>
+      </links>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>SAVE+CHANGES</text>
+      <textColor>4281545523</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>100</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+    <control controlID="ED5F8295-833B-4CDA-9FC3-C3A0240F634B" controlTypeID="TextInput" x="45" y="408" w="290" h="55" zOrder="8">
+      <caption>Text+Input</caption>
+      <color>4293980400</color>
+      <borderVisible>False</borderVisible>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>WEIGHT</text>
+      <textColor>4291414473</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="38668419-5758-44F3-ADA9-F95DB595BA16" controlTypeID="TextInput" x="45" y="477" w="290" h="55" zOrder="9">
+      <caption>Text+Input</caption>
+      <color>4293980400</color>
+      <borderVisible>False</borderVisible>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>TYPE</text>
+      <textColor>4291414473</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="F6468A2E-E219-4086-A420-DD4409E25220" controlTypeID="Icon" x="295" y="284" w="40" h="40" zOrder="10">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62302</iconCode>
+      </icon>
+      <URL>D9A6B48B1FEBA31C14CD8CB7C4744E0C.svg</URL>
+    </control>
+    <control controlID="2334A0CE-6B49-43C5-A71B-755453AC7F9D" controlTypeID="Icon" x="295" y="485" w="40" h="40" zOrder="11">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62302</iconCode>
+      </icon>
+      <URL>D9A6B48B1FEBA31C14CD8CB7C4744E0C.svg</URL>
+    </control>
+    <control controlID="1D5B93F4-3769-45F5-B0A5-BA7A9FE1EE6F" controlTypeID="Icon" x="10" y="30" w="24" h="24" zOrder="12">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="988A39D1-4717-4098-A446-21A104076749" linkType="ltPageLink" isApplyIncludePage="False" title="My+pets">
+          <area shape="0" alt="" ID="{02F5E87E-0101-4F47-AC0E-BD2C13DC9D03}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62305</iconCode>
+      </icon>
+      <URL>99D18E524D2BEF9446942FB6A373FE26.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

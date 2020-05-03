@@ -1,0 +1,134 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="A19EF782-890E-47DB-9F7F-4AAA29A4EB32" platform="MtMobile" defaultW="375" defaultH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" measureW="375" measureH="796" clipArea="(0,71,375,796)">
+  <controls controlCount="12">
+    <control controlID="7A130051-4BD4-40C9-937E-B0AC7E104568" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="0">
+      <caption>iOS+Status+Bar</caption>
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="683B7E42-D730-4E51-8B99-DAD66F6A010A" controlTypeID="Shape" x="0" y="20" w="375" h="49" zOrder="1">
+      <caption>Shape</caption>
+      <borderColor>4293190884</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>DAY+1</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="BD230727-A814-459E-87A3-DB07B199D11C" controlTypeID="Icon" x="10" y="36" w="15" h="15" zOrder="2">
+      <caption>Icon</caption>
+      <color>4285953654</color>
+      <links eventType="AtClick" animate="AmPushRight" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="82F4818D-C0FD-4966-A28C-DC2CD7DC34A8" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+          <area shape="0" alt="" ID="{D1CC5553-76EF-4ED9-985F-45E2A324ACA7}" coords="(0,0,15,15)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61738</iconCode>
+      </icon>
+      <URL>C3E2977FC40DAEFBC44FD1E53166AF20.svg</URL>
+    </control>
+    <control controlID="3B9F0C28-DE9C-4FB9-A4CA-DFBAEC5F5186" controlTypeID="Icon" x="216" y="84" w="20" h="20" zOrder="3">
+      <caption>Icon</caption>
+      <color>4288256409</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62343</iconCode>
+      </icon>
+      <URL>27BF6DD5D083782A1CB633DA66BC8750.svg</URL>
+    </control>
+    <control controlID="3B8539ED-BC53-4FFC-A1E3-849F4EF954D5" controlTypeID="Icon" x="262" y="84" w="20" h="20" zOrder="4">
+      <caption>Icon</caption>
+      <color>4288256409</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIcoMoonFree</iconFontName>
+        <iconCode>60013</iconCode>
+      </icon>
+      <URL>299D03F5985206E4D55465FEA215D8BA.svg</URL>
+    </control>
+    <control controlID="6B85347D-4B59-4E55-B7DD-775A4EFEAE43" controlTypeID="Icon" x="307" y="84" w="20" h="20" zOrder="5">
+      <caption>Icon</caption>
+      <color>4288256409</color>
+      <links eventType="AtClick" animate="AmSlideUp" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="208A7381-AF90-43F6-AF91-29900DB759EB" linkType="ltPageLink" isApplyIncludePage="False" title="Share">
+          <area shape="0" alt="" ID="{02E2B611-9545-4BFC-9581-752D274E8ADB}" coords="(0,0,20,20)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61509</iconCode>
+      </icon>
+      <URL>CC2F86A65A0587F585F9C4890BF507D1.svg</URL>
+    </control>
+    <control controlID="EBBDEAFC-1C88-4330-9619-40AA4CD0345D" controlTypeID="Label" x="138" y="138" w="89" h="19" zOrder="6">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial+Bold+Italic" postScript="" weightStyle="Bold+Italic" weight="700" isBold="True" isItalic="True"/>
+      <text>WELCOME!</text>
+      <textColor>4281545523</textColor>
+      <textSize>16</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold,fsItalic]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="626B9381-52DC-4FC2-BFDC-ADF801FB5AE2" controlTypeID="Label" x="130" y="196" w="112" h="17" zOrder="7">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>God.+Others.+Me.</text>
+      <textColor>4281545523</textColor>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7DA63614-24EC-4E7A-ABE4-CAB026B006F3" controlTypeID="Label" x="118" y="217" w="135" h="18" zOrder="8">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Mark+12%3A29-31(TPT)</text>
+      <textColor>4281545523</textColor>
+      <textSize>15</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D32FED94-0A76-472D-8272-6D7FAEFFE1AB" controlTypeID="Label" x="20" y="276" w="62" h="17" zOrder="9">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Welcome!</text>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="F22F9FB5-EEE7-47B4-B4F6-7652A5711928" controlTypeID="TextArea" x="20" y="330" w="329" h="59" zOrder="10">
+      <caption>Text+Area</caption>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>We're+so+glad+you're+here.+I'm+Lizzy+Milani%2C+and+its+great+to+meet+you.</text>
+      <textSize>15</textSize>
+      <lineSpacingMultiple>1.29999995231628</lineSpacingMultiple>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E1C34417-5D3A-4ADA-B367-82B3D34D785C" controlTypeID="TextArea" x="20" y="407" w="329" h="383" zOrder="11">
+      <caption>Text+Area</caption>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>We+(My+husband+Jesse+and+I)+started+Pocket+Fuel+back+in+2012+when+Instagram+had+no+algorithms%2C+and+we+had+no+idea+what+we+were+doing.+None.+We+were+both+Pastors+on+staff+at+a+church%2C+yet+struggled+with+a+restlessness+that+we+weren't+in+our+%22sweet+spot.%22+There+was+something+else+for+us%2C+we+just+didn't+know+what.+Pocket+Fuel+emerged+out+of+that+space%3B+slowly%2C+awkwardly+and+wonderfully.+We+posted+our+first+'devotion'+(more+on+that+word+in+a+sec)+on+Instagram%2C+and+we+were+knocked+off+our+feet+by+the+response.+It+was+such+a+humbling+and+powerful+thing+to+watch+people+engage+with+scripture+and+encouragement+in+conversational+form+as+they+scrolled+all+the+social+spaces.%0D%0A...</text>
+      <textSize>15</textSize>
+      <lineSpacingMultiple>1.29999995231628</lineSpacingMultiple>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
