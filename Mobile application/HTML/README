@@ -1,0 +1,13 @@
+
+1. This site is designed for make a clearer demonstration of the application process. 
+    The accuracy of the button is higher than it is showed when using Processing. 
+    The black circles which are used for highlighting the coordinate of the buttion in Processing are deleted in this part.
+    Also, a external framework for the ios system is shown in this web so that our potential testers as well as users may immersive in it better;
+
+2. The file 'index.html' can be opened directly on the local browser, which shows all the content of the app ; 
+           
+3. If remote server is required, please copy all files in this directory to the server, 
+    delete index.html, rename remote.html to index.html, and then use the remote address to access;
+
+4. Mockplus was used for help build this part；
+
