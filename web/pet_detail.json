@@ -1,0 +1,11 @@
+[
+  {
+    "petId":1,
+    "heartRate":80,
+    "steps":2020,
+    "distance":0.4,
+    "posture":"dogSleep.jpg",
+    "petlon":-2.603,
+    "petlat":51.453
+  }
+]
