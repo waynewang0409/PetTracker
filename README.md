@@ -6,6 +6,7 @@ PetTracker aims to provide pet owners with services such as tracking the locatio
 The architecture is composed of:  **Desktop application, Web application, M5Stack.**  
 **Desktop:**  
 The Desktop focuses on data visualisation, management and control tasks for our application. Main efforts were put in designing the background pictures which show all contents of the applictaion.  Black circles are used to highlight the position of buttons, which is not very accurate because of the difficulty of fixing.Also, we try to make a clear version of how users can interact with the pages by clicking different buttons and make a process tree to show them.   
+ ![image](https://github.com/PetTracker/PetTracker/blob/dev/Mobile%20application/Processing/prcess_tree.png)
 **m5stack:**   
 M5 stack is used to locate the location of the pet, measure distance between the pet and owner, collect data from the pet and send it to the web server. To fulfill these functions, we break M5 Stack into three parts to design. First, we get the gps raw data from M5 Stack, and we use Tiny GPS++ library to reproduce raw data into the data we can use. Those data include location, time, speed, satellite, and altitude. However, we only need location data, therefore we only display location on M5 Stack. Secondly, we use VL53L0X, which is the distance sensor, to measure the distance between pet and owner. We use millimeter to display the distance. Last but not least, we use MQTT to transfer our data. We send location and distance back to the web server, and server will process those data. When the server found out that the distance between pet and owner is too far away, the server will send a warning message through MQTT to M5 Stack. When M5 Stack get the message from the server, we use NOTE_DH2 to make warning sound. Through those steps, we can make sure the pet will not get lost when they are taking a walk.    
 **web:**  
@@ -20,10 +21,10 @@ e.g. “As a <role or persona>, I can <goal/need> so that <why>”
 **web:**  
 ### d. The evolution of UI wireframes for key sub-systems
 **Paper prototyping:**  
-**Processing Prototype:**   
-  
-**Final product::**  
-[link video]
+![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)         
+**Final product:**      
+![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)
+
 ### e. Details of the communication protocols in use (including a rational for your choice)
 ### f. Details of the data persistence mechanisms in use (including a rational for your choice)
 ### g. Details of web technologies in use (including a rational for your choice)
