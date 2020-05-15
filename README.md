@@ -5,7 +5,7 @@
 PetTracker aims to provide pet owners with services such as tracking the location of pets, monitoring the health and activity status of pets, timely notification of pet health abnormalities, and providing the location and contact information of nearby pet hospitals.
 The architecture is composed of M5Stack，Web application and Desktop application.     
 **M5 stack to be used by pets.** It can locate the location of the pet, measure distance between the pet and owner, collect data from the pet and send it to the server.    
-**Desktop to be use by clients.**   It can show the user's information, pet's status, action and location inforamtion which are sent by the server.
+**Desktop to be use by clients.**   It can show the user's information, pet's status, action and location inforamtion which are sent by the server.    
 **Web to be use by clients and developers.**    There are two kinds of web applications. One is for the client which has the same functions as the Desktop application, and the other is for the developer which can manage and take a look at the databases of uses and pets.
 
 ### b. Object-Oriented design of key sub-systems (e.g. Desktop Application, Web Application etc.)
