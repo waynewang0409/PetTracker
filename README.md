@@ -16,12 +16,12 @@ The Desktop focuses on data visualisation, management and control tasks for our 
 M5 stack is used to locate the location of the pet, measure distance between the pet and owner, collect data from the pet and send it to the web server. To fulfill these functions, we break M5 Stack into three parts to design. First, we get the gps raw data from M5 Stack, and we use Tiny GPS++ library to reproduce raw data into the data we can use. Those data include location, time, speed, satellite, and altitude. However, we only need location data, therefore we only display location on M5 Stack. Secondly, we use VL53L0X, which is the distance sensor, to measure the distance between pet and owner. We use millimeter to display the distance. Last but not least, we use MQTT to transfer our data. We send location and distance back to the web server, and server will process those data. When the server found out that the distance between pet and owner is too far away, the server will send a warning message through MQTT to M5 Stack. When M5 Stack get the message from the server, we use NOTE_DH2 to make warning sound. Through those steps, we can make sure the pet will not get lost when they are taking a walk.    
 **web:**  
 
-
 ### c. Requirements of key sub-systems (in the form of selected user stories)
-e.g. “As a <role or persona>, I can <goal/need> so that <why>”    
-**Desktop:**  
-**m5stack:**   
-**web:**  
+（1）As a pet owner, I can use my mobile phone or webpage to check the location of my pet, so as to prevent my pet from leaving the safe area when I am not at home.       
+（2）As a pet owner, I can use my mobile phone or webpage to check whether the health index data of my pet is within the normal range, and can be reminded in time when the health index of the pet is abnormal, and can contact the hospital in time after being reminded, so as to ensure the health of the pet to the maximum extent.      
+（3）As a pet owner, when I am not around my pet, I can use my mobile phone or web page to check the status of the dog (such as running, lying, etc.), so as to better understand the dog's life.         
+（4）As a dog owner, I can see the location of my friends in the neighborhood when I walk my dog, so that my dog can have a good social relationship.         
+（5）As a pet owner, I will go to the hospital regularly for physical examination of pets. I hope to see the grading, evaluation and geographical location of each pet hospital before I go to the pet hospital, so that I can choose the pet hospital more conveniently.       
 ### d. The evolution of UI wireframes for key sub-systems
 **Paper prototyping:**  
 ![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)         
