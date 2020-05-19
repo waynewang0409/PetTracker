@@ -1,0 +1,12 @@
+{
+  "data_type": "pets_info",
+  "info":
+  {
+    "petId":1,
+    "name":"doggy",
+    "breed":"Beagle",
+    "size":"small",
+    "weight":"8",
+    "category":"dog"
+  }
+}

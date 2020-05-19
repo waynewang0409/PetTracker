@@ -1,0 +1,10 @@
+{
+
+  "data_type": "user_info",
+  "info":
+  {
+    "username":"Serena",
+    "password":123456,
+    "machine":"000000001"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data_type": "pets_machine",
+  "info":
+  {
+    "petId":1,
+    "machine":"000000001"
+  }
+}

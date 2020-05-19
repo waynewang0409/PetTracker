@@ -1,0 +1,13 @@
+{
+  "data_type": "pets_detail",
+  "info":
+  {
+    "petId":1,
+    "heartRate":80,
+    "steps":2020,
+    "distance":0.4,
+    "posture":"sleep",
+    "petlon":-2.603,
+    "petlat":51.453
+  }
+}
