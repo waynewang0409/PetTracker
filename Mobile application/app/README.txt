@@ -6,8 +6,7 @@
 3. Also, we try to make a clear version of how users can interact with the pages by clicking different buttons and make a 
 process tree to show the logic within them.
 
-4. Four functions have been written to show the interaction with information stored in local database. However, they haven't been embedded into 
-the pages because of the difficulties in positioning. 
+4. Four functions have been written to show the interaction with information stored in local database. However, they haven't been embedded into the pages because of the difficulties in positioning. 
 
 
 
