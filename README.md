@@ -14,7 +14,10 @@ The Desktop focuses on data visualisation, management and control tasks for our 
  ![image](https://github.com/PetTracker/PetTracker/blob/dev/Mobile%20application/Processing/prcess_tree.png)
 **m5stack:**   
 M5 stack is used to locate the location of the pet, measure distance between the pet and owner, collect data from the pet and send it to the web server. To fulfill these functions, we break M5 Stack into three parts to design. First, we get the gps raw data from M5 Stack, and we use Tiny GPS++ library to reproduce raw data into the data we can use. Those data include location, time, speed, satellite, and altitude. However, we only need location data, therefore we only display location on M5 Stack. Secondly, we use VL53L0X, which is the distance sensor, to measure the distance between pet and owner. We use millimeter to display the distance. Last but not least, we use MQTT to transfer our data. We send location and distance back to the web server, and server will process those data. When the server found out that the distance between pet and owner is too far away, the server will send a warning message through MQTT to M5 Stack. When M5 Stack get the message from the server, we use NOTE_DH2 to make warning sound. Through those steps, we can make sure the pet will not get lost when they are taking a walk.    
-**web:**  
+**web:**   
+(1)For clients:   
+(2)For developers:    
+
 
 ### c. Requirements of key sub-systems (in the form of selected user stories)
 （1）As a pet owner, I can use my mobile phone or webpage to check the location of my pet, so as to prevent my pet from leaving the safe area when I am not at home.       
