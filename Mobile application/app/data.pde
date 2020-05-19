@@ -98,25 +98,7 @@ public class AllData {
        return detail;
     }
     
-     JSONObject getPetInfoByID(String id){
-      JSONObject detail = new JSONObject();
-       for (JSONObject datas: db.data) {
-            if (datas != null) {
-              String datatype = datas.getString("data_type");
-                if (datatype.equals("pets_info")) {
-                  JSONObject details = (JSONObject) datas.get("info");
-                  String petId = details.getString("petId");
-                  if(petId.equals(id)){
-                    detail = datas;
-                  }
-                }
-            }
-       }
-       return detail;
-    }
-}
-
-    void userRegister(int id, String firstname,String lastname,String email,String password){
+        void userRegister(int id, String firstname,String lastname,String email,String password){
       String fullPath = "data"+ File.separator + "user_info" + id+ ".json";
            try{
                      File file = new File(fullPath);      
@@ -146,3 +128,23 @@ public class AllData {
 
      }
     }
+    
+     JSONObject getPetInfoByID(String id){
+      JSONObject detail = new JSONObject();
+       for (JSONObject datas: db.data) {
+            if (datas != null) {
+              String datatype = datas.getString("data_type");
+                if (datatype.equals("pets_info")) {
+                  JSONObject details = (JSONObject) datas.get("info");
+                  String petId = details.getString("petId");
+                  if(petId.equals(id)){
+                    detail = datas;
+                  }
+                }
+            }
+       }
+       return detail;
+    }
+}
+
+
