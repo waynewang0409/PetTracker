@@ -18,11 +18,8 @@ This part focuses on data visualisation, management, storage and control tasks f
 M5 stack is used to locate the location of the pet, measure distance between the pet and owner, collect data from the pet and send it to the web server. To fulfill these functions, we break M5 Stack into three parts to design. First, we get the gps raw data from M5 Stack, and we use Tiny GPS++ library to reproduce raw data into the data we can use. Those data include location, time, speed, satellite, and altitude. However, we only need location data, therefore we only display location on M5 Stack. Secondly, we use VL53L0X, which is the distance sensor, to measure the distance between pet and owner. We use millimeter to display the distance. Last but not least, we use MQTT to transfer our data. We send location and distance back to the web server, and server will process those data. When the server found out that the distance between pet and owner is too far away, the server will send a warning message through MQTT to M5 Stack. When M5 Stack get the message from the server, we use NOTE_DH2 to make warning sound. Through those steps, we can make sure the pet will not get lost when they are taking a walk.    
 **web:**   
 (1)For clients:    
-This part is used to     
-Functions have been written to          
-(2)For developers:      
-This part is used to     
-Functions have been written to        
+This part is a web version of Desktop. What's more, it can also send a message to the M5Stack through MQTT when pets are abnormal.        (2)For developers/service providers:      
+This part is used to import and manage data repository. Functions have been written to show data on web by reading files, and highlight those abnormal heart rates. 
 
 
 ### c. Requirements of key sub-systems (in the form of selected user stories)
