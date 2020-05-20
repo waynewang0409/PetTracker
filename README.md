@@ -30,10 +30,14 @@ This part is used to import and manage data repository. Functions have been writ
 （4）As a dog owner, I can see the location of my friends in the neighborhood when I walk my dog, so that my dog can have a good social relationship.         
 （5）As a pet owner, I will go to the hospital regularly for physical examination of pets. I hope to see the grading, evaluation and geographical location of each pet hospital before I go to the pet hospital, so that I can choose the pet hospital more conveniently.       
 ### d. The evolution of UI wireframes for key sub-systems
-**Paper prototyping:**  
+**For clients:**     
+(1)Paper prototyping          
 ![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)         
-**Final product:**      
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)
+(2)Final product for desktop              
+![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)    
+(3)Final product for web         
+**For developers:**          
+
 
 ### e. Details of the communication protocols in use (including a rational for your choice)
 ### f. Details of the data persistence mechanisms in use (including a rational for your choice)
