@@ -30,14 +30,17 @@ This part is used to import and manage data repository. Functions have been writ
 （4）As a dog owner, I can see the location of my friends in the neighborhood when I walk my dog, so that my dog can have a good social relationship.         
 （5）As a pet owner, I will go to the hospital regularly for physical examination of pets. I hope to see the grading, evaluation and geographical location of each pet hospital before I go to the pet hospital, so that I can choose the pet hospital more conveniently.       
 ### d. The evolution of UI wireframes for key sub-systems
-**For clients:**     
-(1)Paper prototyping          
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)         
-(2)Final product for desktop              
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)    
-(3)Final product for web         
-**For developers:**          
-
+**For clients:**           
+(1)Paper prototyping               
+At the beginning, we used a paper prototype to design the UI. It could enable the team to quickly integrate, modify, and present our ideas and product logic, which was convenient for our subsequent application design.                 
+![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)            
+（2）Processing Prototype                 
+Next, we used mockplus, a prototype design tool, to design UI for clients. We chose pink as the background color of the app, and the buttons were represented by simple icons. We also used Processing to design button actions and simulate interaction.                    
+![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)                      
+mind Mapping for the interaction:                     
+![image](https://github.com/PetTracker/PetTracker/blob/dev/Mobile%20application/app/prcess_tree.png)                       
+**For developers:**           
+The developer's web page is only two pages, which are very simple. We mainly used the Bootstrap css framework for design and implementation.                   
 
 ### e. Details of the communication protocols in use (including a rational for your choice)
 ### f. Details of the data persistence mechanisms in use (including a rational for your choice)
