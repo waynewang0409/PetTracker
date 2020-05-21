@@ -24,11 +24,23 @@ This part is used to import and manage data repository. Functions have been writ
 
 
 ### c. Requirements of key sub-systems (in the form of selected user stories)
-（1）As a pet owner, I can use my mobile phone or webpage to check the location of my pet, so as to prevent my pet from leaving the safe area when I am not at home.       
-（2）As a pet owner, I can use my mobile phone or webpage to check whether the health index data of my pet is within the normal range, and can be reminded in time when the health index of the pet is abnormal, and can contact the hospital in time after being reminded, so as to ensure the health of the pet to the maximum extent.      
+（1）As a pet owner, I can use my mobile phone or webpage to check the location of my pet, so as to prevent my pet from leaving the safe area when I am not at home.     
+M5Stack requirements: send location information of pets to server            
+Web for clients or Desktop: get location information of pets from server         
+（2）As a pet owner, I can use my mobile phone or webpage to check whether the health index data of my pet is within the normal range, and can be reminded in time when the health index of the pet is abnormal, and can contact the hospital in time after being reminded, so as to ensure the health of the pet to the maximum extent.       
+M5Stack requirements: send health information of pets to server         
+Web for clients or Desktop: get health information of pets from server / get a message if health index is abnormal       
+Web for developers: get a message if there is any abnormal health index              
 （3）As a pet owner, when I am not around my pet, I can use my mobile phone or web page to check the status of the dog (such as running, lying, etc.), so as to better understand the dog's life.         
+M5Stack requirements: send action information of pets to server             
+Web for clients or Desktop: get action information of pets from server            
 （4）As a dog owner, I can see the location of my friends in the neighborhood when I walk my dog, so that my dog can have a good social relationship.         
-（5）As a pet owner, I will go to the hospital regularly for physical examination of pets. I hope to see the grading, evaluation and geographical location of each pet hospital before I go to the pet hospital, so that I can choose the pet hospital more conveniently.       
+M5Stack requirements: send location information of pets to server                       
+Web for clients or Desktop: add other pets as friends / get location information of friend pets from server                 
+（5）As a pet owner, I will go to the hospital regularly for physical examination of pets. I hope to see the grading, evaluation and geographical location of each pet hospital before I go to the pet hospital, so that I can choose the pet hospital more conveniently.      Web for clients or Desktop: show hostital information  such as grading, evaluation and geographical location               
+(6) As a pet ownner, whenever I log in, I can get or change information about myself and my pet such as names, ages and so on. What's more, I can also add or delete a pet.        
+Web for clients or Desktop: register / log in  /  add pets / delete pets / modify owner or pet information / update files which store information function              
+Web for developers: manage files which store information                  
 ### d. The evolution of UI wireframes for key sub-systems
 **For clients:**           
 (1)Paper prototyping               
