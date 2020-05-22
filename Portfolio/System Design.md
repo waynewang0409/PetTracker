@@ -8,7 +8,7 @@ The architecture is composed of M5Stack，Web application and Desktop applicatio
 
 ### b. Object-Oriented design of key sub-systems (e.g. Desktop Application, Web Application etc.)    
    basic architecture of object oriented design:       
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/structure.jpg)         
+![image](https://github.com/PetTracker/PetTracker/blob/master/gif/structure.jpg)         
          
 **Desktop:**  
     This part focuses on data visualisation, management, storage and control tasks for our application. Efforts were put in designing the background pictures which show all contents of the applictaion. Black circles are used to highlight the position of buttons, which is not very accurate because of the difficulty in fixing.Also, we try to make a clear version of how users can interact with the pages by clicking different buttons and make a process tree to show the logic within them.Four functions have been written to show the interaction with information stored in local database. However, they haven't been embedded into the pages because of the difficulties in positioning.       
@@ -45,12 +45,12 @@ The architecture is composed of M5Stack，Web application and Desktop applicatio
 **For clients:**           
     (1)Paper prototyping               
       At the beginning, we used a paper prototype to design the UI. It could enable the team to quickly integrate, modify, and present our ideas and product logic, which was convenient for our subsequent application design.                 
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/Paper%20prototyping.GIF)            
+![image](https://github.com/PetTracker/PetTracker/blob/master/gif/Paper%20prototyping.GIF)            
     （2）Processing Prototype                 
       Next, we used mockplus, a prototype design tool, to design UI for clients. We chose pink as the background color of the app, and the buttons were represented by simple icons. We also used Processing to design button actions and simulate interaction.                    
-![image](https://github.com/PetTracker/PetTracker/blob/dev/gif/final%20product.GIF)                      
+![image](https://github.com/PetTracker/PetTracker/blob/master/gif/final%20product.GIF)                      
 mind Mapping for the interaction:                     
-![image](https://github.com/PetTracker/PetTracker/blob/dev/Mobile%20application/app/prcess_tree.png)  
+![image](https://github.com/PetTracker/PetTracker/blob/master/Mobile%20application/app/prcess_tree.png)  
 
 **For developers:**           
     The developer's web page is only two pages, which are very simple. We mainly used the Bootstrap css framework for design and implementation.                   
