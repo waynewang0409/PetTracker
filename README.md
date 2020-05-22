@@ -1,6 +1,7 @@
 # PetTracker
 <img src=https://github.com/PetTracker/PetTracker/blob/dev/Portfolio/image/start.jpg width = 375 alt= "start"> 
-Description
+
+> PetTracker aims to provide pet owners with services such as tracking the location of pets, monitoring the health and activity status of pets, timely notification of pet health abnormalities, and providing the location and contact information of nearby pet hospitals.
 
 
 
