@@ -1,0 +1,143 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="82738893-C712-43CC-8203-70411722C779" platform="MtMobile" defaultW="375" defaultH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" measureW="375" measureH="667" clipArea="(0,0,0,0)">
+  <controls controlCount="14">
+    <control controlID="38437D64-186E-45CA-903A-9957C05F070B" controlTypeID="Image" x="0" y="64" w="375" h="608" zOrder="0">
+      <caption>Image</caption>
+      <URL>EA5DAEE59571DD3F42B5C10501D10495.png</URL>
+    </control>
+    <control controlID="ECAB3939-BA7E-412C-89F7-11691471255B" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="1">
+      <caption>iOS+Status+Bar</caption>
+      <color>4294967295</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="F24AA807-45C5-4698-8011-B868CEBDF7C9" controlTypeID="Shape" x="0" y="20" w="375" h="44" zOrder="2">
+      <caption>Shape</caption>
+      <borderColor>4291611852</borderColor>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>HOSIPITAL+NO.1</text>
+      <textColor>4284900966</textColor>
+      <textSize>16</textSize>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="25924350-5E2C-4C4E-9825-C6A5B8F15336" controlTypeID="Tabs" x="0" y="64" w="176" h="73" zOrder="3">
+      <caption>Tab+Bar</caption>
+      <borderColor>4294111986</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>07529135519</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedColor>4289374890</selectedColor>
+      <dividerPercentHeight>0</dividerPercentHeight>
+      <selectedTextColor>4284900966</selectedTextColor>
+    </control>
+    <control controlID="68EEF3F5-9932-4729-B96A-833DDE6A23DC" controlTypeID="Image" x="0" y="137" w="375" h="535" zOrder="4">
+      <caption>Image</caption>
+      <URL>430D6D0DCF2B2B44CFCD6042C0504025.jpg</URL>
+    </control>
+    <control controlID="6BCAB6C1-27BB-43E2-9597-F9573CAEE1DE" controlTypeID="IconButton2" x="232" y="400" w="47" h="47" zOrder="5">
+      <caption>Icon+Button</caption>
+      <groupChildrenDescriptors>
+        <control controlID="6CD2E24B-CF82-4363-AF84-4C85092C07A1" controlTypeID="Shape" x="0" y="0" w="47" h="47" zOrder="0">
+          <caption>Shape</caption>
+          <borderColor>4293125091</borderColor>
+          <canMove>False</canMove>
+          <alias>shape</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+          <shapeBorderType>SbEllipse</shapeBorderType>
+          <thickness>4</thickness>
+        </control>
+        <control controlID="A4D3916E-B293-4EA8-B588-4468B7837358" controlTypeID="Icon" x="8" y="8" w="30" h="30" zOrder="1">
+          <caption>Icon</caption>
+          <canMove>False</canMove>
+          <alias>icon</alias>
+          <icon>
+            <ID/>
+            <iconFontName>jdIonicons</iconFontName>
+            <iconCode>62371</iconCode>
+          </icon>
+          <URL>474A61FDC203C97B2EEFAF494C017CCB.svg</URL>
+        </control>
+        <control controlID="EB841603-BD1E-4B7F-94F4-A38E4011BCD4" controlTypeID="Label" x="2" y="0" w="29" h="14" zOrder="2">
+          <caption>Label</caption>
+          <canMove>False</canMove>
+          <alias>label</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Label</text>
+          <textSize>12</textSize>
+          <textAlign>HaCenter</textAlign>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B4C660A0-D089-4000-ADDA-4FB2A955EDF0" controlTypeID="Shape" x="30" y="0" w="17" h="16" zOrder="3">
+          <caption>Shape</caption>
+          <color>4294901760</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>alarm</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>2</text>
+          <textColor>4294967295</textColor>
+          <textSize>10</textSize>
+          <selectedIndex>-1</selectedIndex>
+          <radius>100</radius>
+          <radiusIsPercent>True</radiusIsPercent>
+        </control>
+      </groupChildrenDescriptors>
+      <iconSize>30</iconSize>
+    </control>
+    <control controlID="6E69B286-20CD-422A-BCD4-504CDBDFBCFE" controlTypeID="Icon" x="10" y="30" w="24" h="24" zOrder="6">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="FBC43B8E-6562-4BA8-8C84-7BB296C82B79" linkType="ltPageLink" isApplyIncludePage="False" title="hosiptal">
+          <area shape="0" alt="" ID="{3EEB28BE-191F-42B0-9B42-33FE9677AE72}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62305</iconCode>
+      </icon>
+      <URL>99D18E524D2BEF9446942FB6A373FE26.svg</URL>
+    </control>
+    <control controlID="65A77432-759B-42A8-A309-DCA7AF20B28D" controlTypeID="Icon" x="17" y="86" w="24" h="24" zOrder="7">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62162</iconCode>
+      </icon>
+      <URL>94E9452D20864CF3FBC79CD2C4E76723.svg</URL>
+    </control>
+    <control controlID="2CC3C0FC-1FAA-4946-92F6-711F79242B3C" controlTypeID="Tabs" x="176" y="64" w="199" h="73" zOrder="8">
+      <caption>Tab+Bar</caption>
+      <borderColor>4294111986</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>++++++The+Rupert+St.Bristol+BS1+2AF</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedColor>4289374890</selectedColor>
+      <dividerPercentHeight>0</dividerPercentHeight>
+      <selectedTextColor>4284900966</selectedTextColor>
+    </control>
+    <control controlID="9C196606-8D51-4EB7-BBAA-4AD3682F02AE" controlTypeID="Icon" x="166" y="81" w="29" h="29" zOrder="9">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62371</iconCode>
+      </icon>
+      <URL>474A61FDC203C97B2EEFAF494C017CCB.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

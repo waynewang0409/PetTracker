@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/link.js"></script>
+	<link rel="icon" href="image/pet.ico">
+    <title>Pets</title>
+    <link href="css/pets.css" rel="stylesheet">
+	<script>
+	window.onload = function() {
+		init();
+	};
+	
+	function init(){
+
+	}
+</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+      <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="linkPets()">Pets <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="linkInsert()">Insert</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" onclick="linkUser()">User</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#" onclick="linkFAQ()">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main" class="container" style="width:60%">
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1">name</span>
+			</div>
+			<input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1" value="Neo">
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1">phone</span>
+			</div>
+			<input type="text" class="form-control" placeholder="phone" aria-label="phone" aria-describedby="basic-addon1" value="0000000000000">
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1">email</span>
+			</div>
+			<input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1" value="xxx@xxx.xx.xx" disabled>
+		</div>
+		<div class="text-center">
+				<button class="btn btn-lg btn-primary">update</button>
+			</div>
+    </main><!-- /.container -->
+  </body>
+</html>

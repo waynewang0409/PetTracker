@@ -1,0 +1,183 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="58D79548-403A-4AC6-87E5-0F159EE65A90" platform="MtMobile" defaultW="375" defaultH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" measureW="375" measureH="799" clipArea="(0,72,375,799)">
+  <controls controlCount="14">
+    <control controlID="D8A42F4D-F3C6-4557-A6F9-E1DF680C33EB" controlTypeID="Image" x="0" y="0" w="375" h="802" zOrder="0">
+      <caption>Image</caption>
+      <URL>EA5DAEE59571DD3F42B5C10501D10495.png</URL>
+    </control>
+    <control controlID="C655E0FD-B9AD-4286-AFFA-4DF2329EEE4D" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="1">
+      <caption>iOS+Status+Bar</caption>
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="558CBAC0-B65D-4C48-B4E0-08209261D2D7" controlTypeID="TextInput" x="42" y="209" w="293" h="56" zOrder="2">
+      <caption>Text+Input</caption>
+      <color>4294177779</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4292994278</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <placeHolder>FIRST+NAME</placeHolder>
+    </control>
+    <control controlID="F00D780C-BAE2-485B-855B-A6D357F046B0" controlTypeID="TextInput" x="42" y="274" w="293" h="56" zOrder="3">
+      <caption>Text+Input</caption>
+      <color>4294177779</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4292994278</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <placeHolder>LAST+NAME</placeHolder>
+    </control>
+    <control controlID="337D95DD-1665-426F-AFDE-1DF87C40D22E" controlTypeID="TextInput" x="42" y="339" w="293" h="56" zOrder="4">
+      <caption>Text+Input</caption>
+      <color>4294177779</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4292994278</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <placeHolder>EMAIL</placeHolder>
+    </control>
+    <control controlID="69765649-6CE2-4E48-A3EF-89D2DD8BBD50" controlTypeID="TextInput" x="42" y="404" w="293" h="56" zOrder="5">
+      <caption>Text+Input</caption>
+      <color>4294177779</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4292994278</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <placeHolder>PASSWORD</placeHolder>
+      <inputModel>emPassword</inputModel>
+    </control>
+    <control controlID="6760E663-52EF-42DB-B264-F26D45A297D1" controlTypeID="TextInput" x="42" y="468" w="293" h="56" zOrder="6">
+      <caption>Text+Input</caption>
+      <color>4294177779</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4292994278</textColor>
+      <textSize>16</textSize>
+      <textAlign>HaCenter</textAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <placeHolder>CONFIRM+PASSWORD</placeHolder>
+      <inputModel>emPassword</inputModel>
+    </control>
+    <control controlID="0992123A-3C3A-4F5C-B847-7C7B591F12C5" controlTypeID="Label" x="50" y="761" w="280" h="12" zOrder="7">
+      <caption>Label</caption>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="DA768265-BCFB-4431-AC0F-488CD6D098D8" linkType="ltPageLink" isApplyIncludePage="False" title="Term+and+condition">
+          <area shape="0" alt="" ID="{0DD7B309-88B8-4337-A369-B00B1828D2C3}" coords="(0,0,280,12)"/>
+        </link>
+      </links>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>By+continuing%2C+you+accept+our+Privacy+Policy+and+Terms+of+Use.</text>
+      <textColor>4281545523</textColor>
+      <textSize>10</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsUnderline]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="153F62A8-5B5F-4AEC-B724-F0A5D7B57DA1" controlTypeID="Button" x="42" y="534" w="293" h="61" zOrder="8">
+      <caption>Button</caption>
+      <color>4291218637</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="988A39D1-4717-4098-A446-21A104076749" linkType="ltPageLink" isApplyIncludePage="False" title="My+pets">
+          <area shape="0" alt="" ID="{0C536454-735E-44E4-94F7-4C5DD9DCC035}" coords="(0,0,293,61)"/>
+        </link>
+      </links>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>SIGNUP</text>
+      <textColor>4281545523</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>100</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+    <control controlID="62204791-55E4-42E5-A1CB-97F0AED6CF2D" controlTypeID="Line" x="213" y="636" w="121" h="1" zOrder="9">
+      <caption>Line</caption>
+      <color>4294967295</color>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(61,0)</controlPoint>
+      <startPoint>(1,0)</startPoint>
+      <endPoint>(121,0)</endPoint>
+    </control>
+    <control controlID="614EA97F-9065-485B-8962-A03ADFC89D2B" controlTypeID="Line" x="2" y="71" w="371" h="1" zOrder="10">
+      <caption>Line</caption>
+      <color>4293110953</color>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(186,0)</controlPoint>
+      <startPoint>(0,0)</startPoint>
+      <endPoint>(371,0)</endPoint>
+    </control>
+    <control controlID="463011CB-A28E-448E-B579-D8413E0DE7B0" controlTypeID="Label" x="145" y="37" w="72" h="17" zOrder="11">
+      <caption>Label</caption>
+      <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>REGISTER</text>
+      <textColor>4294967295</textColor>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1796DD43-4DD4-493C-98D1-EE0DE9A3D737" controlTypeID="Icon" x="13" y="40" w="14" h="14" zOrder="12">
+      <caption>Icon</caption>
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="3008E8E8-8F80-4597-AA0A-82779154C6DE" linkType="ltPageLink" isApplyIncludePage="False" title="Login">
+          <area shape="0" alt="" ID="{B92525D8-DD5D-4C9C-B647-2E5EB7839AAE}" coords="(0,0,14,14)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61738</iconCode>
+      </icon>
+      <URL>C3E2977FC40DAEFBC44FD1E53166AF20.svg</URL>
+    </control>
+    <control controlID="67B8E6CA-D5D4-433A-9B5B-1B7F5556C3F1" controlTypeID="AvatarEx2" x="141" y="82" w="80" h="80" zOrder="13">
+      <caption>Avatar</caption>
+      <color>4284900966</color>
+      <borderVisible>False</borderVisible>
+      <avatarShapeStyle>asCircle</avatarShapeStyle>
+      <avatarBackgroundColor>4291611852</avatarBackgroundColor>
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59652</iconCode>
+      </icon>
+      <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
