@@ -107,6 +107,18 @@ Code: we were looking at p5. sound to add audio output, which is for the buzzer 
 Test: After we implemented this part, we tested under different situations using our application to make sure everything’s working fine.
 
 ### b. Details of how you evaluated your designs (techniques used & awareness of their limitations)
+**Unit and Integration testing:**	
+At the very beginning, unit testings were carried on by various individual designers, especially focusing on code quality. Various JSON objects were created to test different situations that can happen anytime based on the web application, M5stack, and processing part. After we finished the main part of our project, we start to check the coherence and relevance between different parts of our projects to fix the problems we faced as well as further expand our function.
+
+**User stories:**
+Various user stories were designed to test the efficiency and completeness of our project. The first one was designed when we finished the main process of the mobile app. After that, we found out several problems. For example, a user can only log in to the app when he/she already has the account. To fix that, we add a register page to enable the new users to create the account. At the same time, we also add some functions such as providing hospital details, creating a pet society to make our app a more useful one.
+
+**Online investigation:**
+After we finished our project, an online link (https://run.mockplus.cn/tr9rfhERR8zcImc1/index.html) which related to the mobile app was created to demonstrate the complete process of our project. We delivered it to some potential users such as our classmates and relatives who own pets. Meanwhile, a structured interview was designed to find out the subjective response and satisfaction of the participants. After we collected their feedback, we make a quantitive analysis to find out somewhere that we can better be designed, for example, we changed the design of our main page from descriptive text to icons to make the page more clear.
+
+**Limitations**
+Due to the COVID situation, limited user studies were carried on, which lead to a limited amount of user feedback we collected. Also, because of the lack of face-to-face communication with potential users and investors, our design still has a long way from going public. Besides, cross-testing cannot be carried on due to the current situation and the design details of different parts can not be understood clearly by team members, which leads to insufficient integration testing.
+
 ### c. Discussion of Social and Ethical implications of the work
 The Association for Computing Machinery (ACM) Code of Ethics and Professional Conduct provides general guidelines ensuring products or operations aimed at society’s greater goods.
 
