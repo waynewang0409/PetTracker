@@ -55,13 +55,73 @@ mind Mapping for the interaction:
 The developer's web page is only two pages, which are very simple. We mainly used the Bootstrap css framework for design and implementation.                   
 
 ### e. Details of the communication protocols in use (including a rational for your choice)
+We simply select MQTT to connect all our platforms because most of our communication won’t be information crowded, just simple command.
+When information is inputted, JSON file was read by the M5Stack and it started to apply what it was written to do.
+This method works for our application at the current stage, but if we consider more elements, like the future of this application, our data isn’t secured enough due to it’s a development from open sources.
+Therefore, when we need higher security level or each transmission contains more data, a more complicated communication protocol will be needed. 
+
 ### f. Details of the data persistence mechanisms in use (including a rational for your choice)
+M5Stack is used to sending out commands in our system, because it doesn’t have enough space to work as storage for data
+At first, we were thinking about building a database through MySQL, but it’s not as direct as JSON and it’s not a secure way to preserve sensitive data such as user’s information or GPS locations.
+Therefore, we chose JSON object arrays to hold our data since it’s compatible with a variety of webs and it’s able to be parsed on most devices.
+When a new array was created, information stored in the arrays will be called once the pet ID entered, bringing out data the system required.
+
 ### g. Details of web technologies in use (including a rational for your choice)
+We used HTML and JavaScript as the core of our program. While HTML is responsible for running pages in browsers, JavaScript make sure the website is responsive.
+Using p5.js is not only giving us more variety in designing our application but also easier access for everyone.
+
+The p5. clickable library, p5. play library were used for our buttons, enabling us to create multiple buttons and their design. The desktop app used the MQTT library to connect and it linked our four platforms.
 
 ## 2 System Implementation
 ### a. Breakdown of project into sprints (showing the users stories implemented in each).
+#### 1st
+We chose to develop our application with p5.js since it’s a fit for what we are developing.
+Design: We drew out what we could do and a basic structure for our application and the icon of our app. The main purpose of our logo is to show users simply why they’re using this app. Therefore, its design is a head of a dog since our app is mainly designed for pets, especially dogs.
+Code: To create a basic foundation of our application, we set up basic pages through p5.js.
+Test: After further trials, we will be able to develop specific parts of our application.
+
+Desktop Analysis
+Building a basic desktop application and knowing what we’re going to do with MQTT is what we did at this stage of work.
+
+M5Stack Analysis
+Making M5Stack able to connect to Wi-Fi and transmit messages, also part of UI design. We tested with various types of network and some of them required specific MAC addresses. To make sure it’s able to connect with all of them, we tried a variety of addresses.
+
+#### 2nd
+Web Analysis
+We considered which kind of settings we want to put on the first page of our app. The first thing came to our minds were making sure the pet doesn’t leave the safe zone when the owner wasn’t home.
+Design: Basic functions is what we focused on at this moment, the perfection of design wasn’t our first priority. Therefore, we created the homepage with basic categories on it.
+Code: Besides JavaScript and HTML for fundamentals. Creating buttons for various kinds of functions is important to our application. For example, we are not only tracking locations of pets but also pet’s vitals and see if they’re normal and will be notified if there’re not normal and contact hospital or other facilities immediately. Thus, we chose p5. play library because it provides control of visual objects which we used the most in our application.
+Test: To connect each pages smoothly with user hitting buttons and check if there’re any malfunction in it.
+
+Desktop Analysis
+We decided to save our data as JSON files directly instead of creating another database. Not only just to save an extra construction but also JSON is a type of file that integrates with other platforms well.
+Also, we add a database and four API, these API are responsible for reading User names and code, checking it with those stored in the database, searching user’s pet by Machine Code and use the code to check on pet’s status
+
+M5Stack Analysis:
+We added parsing function for JSON since all our files are stored in this type of file and tested. At the same time, we enhance our UI design from what we built last time. Our messages could be translated into variables successfully after tested. The code is able to meet our goal at this stage.
+
+#### 3rd
+Web Analysis
+We consider it better to add on more function to enrich our application. For example, users can see if there’re other dogs around through application, this function allows pets and its owners to build social network with others, but it’s still an extra concept.
+Code: we were looking at p5. sound to add audio output, which is for the buzzer in our system.
+Test: After we implemented this part, we tested under different situations using our application to make sure everything’s working fine.
+
 ### b. Details of how you evaluated your designs (techniques used & awareness of their limitations)
 ### c. Discussion of Social and Ethical implications of the work
+The Association for Computing Machinery (ACM) Code of Ethics and Professional Conduct provides general guidelines ensuring products or operations aimed at society’s greater goods.
+
+#### Trials (Transparency & Prior info)
+When our system is set to go onto a further stage, we will need to implement more trials to adjust, make sure current system is working at a level of low error rate or collecting data. Even most trials are simply related to pets, we still need to provide owners with overall participant information which assures these trials transparency.
+
+#### Data Security (Public source code)
+Using open sources on the internet to develop our program is convenient but leaves us the problem of easy for public access, anyone could enter our databases or system easily. Therefore, there’re improvements to be done, modifying the code to our own version is what has to be done in the long term.
+But in the short term, there’re risks we have to monitor closely.
+
+#### Privacy
+When the program is being tested, we will have to store lots of user’s (pets) data and payment data or other sensitive data. Therefore, anonymity is something we can implement to protect our clients personal detail.
+
+Environmental impact
+Our program isn’t going to cause environmental impact, but if we have to consider any part of it will have the possibility of causing one, it’s the process of manufacturing the device for pets.
 
 ## 3 Project Evaluation
 ### a. Reflective discussion of the success of the project
