@@ -1,5 +1,5 @@
 # PetTracker
-<img src=https://github.com/PetTracker/PetTracker/blob/dev/Portfolio/image/start.jpg width = 375 alt= "start"> 
+<img src=https://github.com/PetTracker/PetTracker/blob/master/Portfolio/image/start.jpg width = 375 alt= "start"> 
 
 > PetTracker aims to provide pet owners with services such as tracking the location of pets, monitoring the health and activity status of pets, timely notification of pet health abnormalities, and providing the location and contact information of nearby pet hospitals.
 
@@ -15,6 +15,6 @@
 
 
 ## Portfolio:
-  1. [System Design](https://github.com/PetTracker/PetTracker/blob/dev/Portfolio/System%20Design.md)
-  2. [System Implementation](https://github.com/PetTracker/PetTracker/blob/dev/Portfolio/System%20Implementation.md)
-  3. [Project Evaluation](https://github.com/PetTracker/PetTracker/blob/dev/Portfolio/Project%20Evaluation.md)
+  1. [System Design](https://github.com/PetTracker/PetTracker/blob/master/Portfolio/System%20Design.md)
+  2. [System Implementation](https://github.com/PetTracker/PetTracker/blob/master/Portfolio/System%20Implementation.md)
+  3. [Project Evaluation](https://github.com/PetTracker/PetTracker/blob/master/Portfolio/Project%20Evaluation.md)
