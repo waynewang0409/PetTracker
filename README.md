@@ -11,7 +11,7 @@
 - Tianbo Yang:  hu19860@bristol.ac.uk
 - Xiaoxiao Wu:  er19019@bristol.ac.uk
 - Meng-Hsuan Ho:  vn19274@bristol.ac.uk
-
+- Wei Chen Wang : of19087@bristol.ac.uk
 
 
 ## Portfolio:
