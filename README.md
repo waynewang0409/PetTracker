@@ -80,28 +80,28 @@ Design: We drew out what we could do and a basic structure for our application a
 Code: To create a basic foundation of our application, we set up basic pages through p5.js.
 Test: After further trials, we will be able to develop specific parts of our application.
 
-Desktop Analysis
+**Desktop Analysis**
 Building a basic desktop application and knowing what we’re going to do with MQTT is what we did at this stage of work.
 
-M5Stack Analysis
+**M5Stack Analysis**
 Making M5Stack able to connect to Wi-Fi and transmit messages, also part of UI design. We tested with various types of network and some of them required specific MAC addresses. To make sure it’s able to connect with all of them, we tried a variety of addresses.
 
 #### 2nd
-Web Analysis
+**Web Analysis**
 We considered which kind of settings we want to put on the first page of our app. The first thing came to our minds were making sure the pet doesn’t leave the safe zone when the owner wasn’t home.
 Design: Basic functions is what we focused on at this moment, the perfection of design wasn’t our first priority. Therefore, we created the homepage with basic categories on it.
 Code: Besides JavaScript and HTML for fundamentals. Creating buttons for various kinds of functions is important to our application. For example, we are not only tracking locations of pets but also pet’s vitals and see if they’re normal and will be notified if there’re not normal and contact hospital or other facilities immediately. Thus, we chose p5. play library because it provides control of visual objects which we used the most in our application.
 Test: To connect each pages smoothly with user hitting buttons and check if there’re any malfunction in it.
 
-Desktop Analysis
+**Desktop Analysis**
 We decided to save our data as JSON files directly instead of creating another database. Not only just to save an extra construction but also JSON is a type of file that integrates with other platforms well.
 Also, we add a database and four API, these API are responsible for reading User names and code, checking it with those stored in the database, searching user’s pet by Machine Code and use the code to check on pet’s status
 
-M5Stack Analysis:
+**M5Stack Analysis**
 We added parsing function for JSON since all our files are stored in this type of file and tested. At the same time, we enhance our UI design from what we built last time. Our messages could be translated into variables successfully after tested. The code is able to meet our goal at this stage.
 
 #### 3rd
-Web Analysis
+**Web Analysis**
 We consider it better to add on more function to enrich our application. For example, users can see if there’re other dogs around through application, this function allows pets and its owners to build social network with others, but it’s still an extra concept.
 Code: we were looking at p5. sound to add audio output, which is for the buzzer in our system.
 Test: After we implemented this part, we tested under different situations using our application to make sure everything’s working fine.
@@ -120,7 +120,7 @@ But in the short term, there’re risks we have to monitor closely.
 #### Privacy
 When the program is being tested, we will have to store lots of user’s (pets) data and payment data or other sensitive data. Therefore, anonymity is something we can implement to protect our clients personal detail.
 
-Environmental impact
+**Environmental impact**
 Our program isn’t going to cause environmental impact, but if we have to consider any part of it will have the possibility of causing one, it’s the process of manufacturing the device for pets.
 
 ## 3 Project Evaluation
