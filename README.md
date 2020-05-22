@@ -80,7 +80,7 @@ Design: We drew out what we could do and a basic structure for our application a
 Code: To create a basic foundation of our application, we set up basic pages through p5.js.
 Test: After further trials, we will be able to develop specific parts of our application.
 
-**Desktop Analysis**
+**Desktop Analysis:**
 Building a basic desktop application and knowing what we’re going to do with MQTT is what we did at this stage of work.
 
 **M5Stack Analysis**
